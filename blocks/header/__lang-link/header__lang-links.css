@@ -1,0 +1,22 @@
+.header__lang-link {
+   position: absolute;
+   background-color: #2A2C2F;
+   text-decoration: none;
+   z-index: -1;
+   opacity: 0;
+}
+
+.header__lang-link:first-child {
+   margin-right: 18px;
+}
+
+.header__lang-link+label {
+   color: white;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 28px;
+}
+
+.header__lang-link:checked+label {
+   text-decoration: underline;
+}

@@ -1,0 +1,7 @@
+.header {
+   display: flex;
+   justify-content: space-between;
+   padding: 28px 48px 0;
+   min-height: 52px;
+   background-color: #2A2C2F;
+}
