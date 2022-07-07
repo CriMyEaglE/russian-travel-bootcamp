@@ -1,3 +1,4 @@
 .place__two-rows {
    display: flex;
+   gap: 40px;
 }

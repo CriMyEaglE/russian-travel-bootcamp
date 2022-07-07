@@ -3,7 +3,7 @@
    width: 100%;
    display: grid;
    justify-content: center;
-   grid-template-columns: repeat(4, 284px);
+   grid-template-columns: repeat(4, auto);
    gap: 16px;
    padding-top: 92px;
 }
