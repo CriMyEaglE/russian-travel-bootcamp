@@ -1,4 +1,6 @@
 .place__website {
+   max-width: 456px;
+   width: 100%;
    display: flex;
    flex-direction: column;
    justify-content: end;

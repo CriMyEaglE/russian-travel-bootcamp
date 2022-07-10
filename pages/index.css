@@ -15,6 +15,7 @@
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 @import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__image/_responsive/lead__image_responsive.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__title/lead__title.css);
 
@@ -36,7 +37,7 @@
 @import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/__url-heading/place__url-heading.css);
-@import url(../blocks/place/__two-rows/place__two-rows.css);
+@import url(../blocks/place/__flex-wrap/place__flex-wrap.css);
 
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__link/cover__link.css);
@@ -49,112 +50,3 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
-
-@media (max-width: 1184px) {
-   .photo-grid {
-      grid-template-columns: repeat(3, auto);
-      gap: 14px;
-   }
-
-   .photo-grid__item {
-      width: 300px;
-      height: 225px;
-   }
-}
-
-@media (max-width: 1024px) {
-   .page {
-      max-width: 1040px;
-   }
-
-   .lead__title {
-      margin-top: 44px;
-   }
-
-   .lead__image {
-      margin-top: 55px;
-      width: 928px;
-      height: 580px;
-   }
-
-   .lead__caption {
-      margin-left: 48px;
-      margin-top: 8px;
-      letter-spacing: 1px;
-   }
-
-   .intro__title {
-      margin-left: 47px;
-   }
-
-   .intro__text {
-      margin-left: 48px;
-   }
-
-   .intro__list {
-      margin-left: 48px;
-   }
-
-
-
-   .place__title {
-      margin-left: 26px;
-      margin-top: -4px;
-      max-width: 440px;
-   }
-
-   .place__image {
-      width: 440px;
-      height: 440px;
-      margin-top: 3px;
-      margin-left: 28px;
-   }
-
-   .place__paragraph {
-      max-width: 456px;
-      margin-left: -8px;
-      margin-top: 3px;
-   }
-
-   .place__website {
-      margin-bottom: 45px;
-      margin-left: -4px;
-   }
-
-   .two__rows {
-      gap: 32px;
-   }
-
-   .cover__overlay {
-      width: 1024px;
-      height: 640px;
-   }
-
-   .cover__title {
-      margin-top: 196px;
-      margin-left: 231px;
-   }
-
-   .cover__subtitle {
-      margin-top: 35px;
-      margin-left: 325px;
-      max-width: 370px;
-      letter-spacing: 1px;
-   }
-
-   .footer {
-      padding-bottom: 22px;
-   }
-
-   .footer__links {
-
-      flex-basis: 458px;
-      margin-left: 48px;
-      margin-top: 5px;
-   }
-
-   .footer__copyright {
-      margin-right: 57px;
-      margin-top: 6px;
-   }
-}
