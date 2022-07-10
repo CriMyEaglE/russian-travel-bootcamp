@@ -1,11 +1,34 @@
 .place__link {
+   max-width: 288px;
+   color: white;
    font-weight: 400;
    font-size: 18px;
    line-height: 22px;
-   color: white;
+   margin: 13px 0 0;
    transition: opacity .3s linear;
 }
 
 .place__link:hover {
    opacity: .8;
+}
+
+@media (min-width: 768px) {
+   .place__link
+   {
+      max-width: 352px;
+   }
+}
+
+@media (min-width: 1024px) {
+   .place__link
+   {
+      max-width: 456px;
+   }
+}
+
+@media (min-width: 1280px) {
+   .place__link
+   {
+      max-width: 484px;
+   }
 }

@@ -1,7 +1,22 @@
 .footer__copyright {
-   margin: 0;
    color: white;
    font-weight: 400;
    font-size: 14px;
-   line-height: 16px;
+   line-height: 14px;
+   margin: 28px 0 0 17px;
+}
+
+@media (min-width: 768px) {
+   .footer__copyright {
+      line-height: 16px;
+      margin-top: 20px;
+      margin-right: 31px;
+   }
+}
+
+@media (min-width: 1024px) {
+   .footer__copyright {
+      margin-right: 56px;
+      margin-top: 25px;
+   }
 }

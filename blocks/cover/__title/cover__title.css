@@ -12,7 +12,7 @@
 
 @media (min-width: 768px) {
   .cover__title {
-     max-width: 506px;
+    max-width: 554px;
      font-size: 72px;
      line-height: 76px;
      margin-top: 112px;
@@ -27,6 +27,6 @@
 
 @media (min-width: 1280px) {
   .cover__title {
-     margin-top: 243px;
+    margin-top: 231px;
   }
 }

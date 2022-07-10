@@ -1,5 +1,26 @@
 .intro {
-   background-color: #2A2C2F;
-   width: 100%;
-   padding-top: 92px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding-top: 64px;
+   margin-left: 16px;
+}
+
+@media (min-width: 768px) {
+   .intro {
+      margin-left: 22px;
+      padding-top: 89px;
+   }
+}
+
+@media (min-width: 1024px) {
+   .intro {
+      margin-left: 48px;
+   }
+}
+
+@media (min-width: 1280px) {
+   .intro {
+      margin-left: 146px;
+   }
 }

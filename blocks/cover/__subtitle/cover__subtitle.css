@@ -19,3 +19,9 @@
      margin-top: 34px;
   }
 }
+
+@media (min-width: 1280px) {
+  .cover__subtitle {
+    margin-top: 34px;
+  }
+}

@@ -1,6 +1,13 @@
 .footer {
-   background-color: #2A2C2F;
-   display: flex;
-   justify-content: center;
-   padding: 92px 0 13px;
+   padding: 53px 0 26px 0;
+}
+
+@media (min-width: 768px) {
+   .footer {
+      display: flex;
+      justify-content: space-between;
+      min-width: 720px;
+      padding-top: 69px;
+      padding-bottom: 5px;
+   }
 }
