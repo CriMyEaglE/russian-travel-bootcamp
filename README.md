@@ -2,7 +2,7 @@
 =====================
 Мой второй проект во время обучения на Яндекс.Практикум профессия "Frontend-разработчик".
 
-<a href="https://crimyeagle.github.io/"><img src="https://i.gifer.com/Aq.gif" alt="Website"></a>
+<a href="https://crimyeagle.github.io/"><img src="./images/readme.jpg" alt="Website"></a>
 
 Проект представляет из себя одностраничный сайт, на котором рассказывается об интересных природных местах России.
 
