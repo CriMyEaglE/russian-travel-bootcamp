@@ -1,0 +1,21 @@
+.cover__overlay_responsive {
+   padding: 1px 0 10% 0;
+ }
+
+ @media (min-width: 768px) {
+   .cover__overlay_responsive {
+      padding-bottom: 15%;
+   }
+}
+
+@media (min-width: 1024px) {
+   .cover__overlay_responsive {
+      padding-bottom: 19%;
+   }
+}
+
+@media (min-width: 1280px) {
+   .cover__overlay_responsive {
+      max-width: 92.5%;
+   }
+}
