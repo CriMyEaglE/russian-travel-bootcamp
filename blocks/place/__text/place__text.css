@@ -1,10 +1,10 @@
-.place__text {   
+.place__text {
    margin: 64px 0 0 16px;
 }
 
 @media (min-width: 768px) {
-   .place__text {      
-    margin-top: 17px;
-    margin-left: 0px;
+   .place__text {
+      margin-top: 17px;
+      margin-left: 0px;
    }
 }

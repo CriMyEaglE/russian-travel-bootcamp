@@ -8,22 +8,19 @@
 }
 
 @media (min-width: 768px) {
-   .place__url-heading
-   {
+   .place__url-heading {
       max-width: 352px;
    }
 }
 
 @media (min-width: 1024px) {
-   .place__url-heading
-   {
+   .place__url-heading {
       max-width: 456px;
    }
 }
 
 @media (min-width: 1280px) {
-   .place__url-heading
-   {
+   .place__url-heading {
       max-width: 484px;
    }
 }

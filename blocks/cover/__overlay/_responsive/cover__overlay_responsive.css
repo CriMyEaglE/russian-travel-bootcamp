@@ -1,8 +1,8 @@
 .cover__overlay_responsive {
    padding: 1px 0 10% 0;
- }
+}
 
- @media (min-width: 768px) {
+@media (min-width: 768px) {
    .cover__overlay_responsive {
       padding-bottom: 15%;
    }

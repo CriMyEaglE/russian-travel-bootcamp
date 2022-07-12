@@ -10,7 +10,7 @@
    .photo-grid {
       grid-template-columns: repeat(2, calc(50% - 32px));
       gap: 16px;
-      margin-top: 24px;  
+      margin-top: 24px;
    }
 }
 

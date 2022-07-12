@@ -11,17 +11,13 @@
 }
 
 @media (min-width: 1024px) {
-   .cover {      
-    padding-top: 12px;
+   .cover {
+      padding-top: 12px;
    }
 }
- 
+
 @media (min-width: 1280px) {
    .cover {
       padding-top: 24px;
    }
 }
-
- 
-
- 
