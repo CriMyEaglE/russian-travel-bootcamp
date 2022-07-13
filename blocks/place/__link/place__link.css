@@ -6,6 +6,7 @@
    line-height: 22px;
    margin: 13px 0 0;
    transition: opacity .3s linear;
+   letter-spacing: 0;
 }
 
 .place__link:hover {

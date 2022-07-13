@@ -8,25 +8,26 @@
   position: relative;
   z-index: 1;
   margin: 33px auto 0;
+  letter-spacing: 0;
 }
 
 @media (min-width: 768px) {
   .cover__title {
     max-width: 554px;
-     font-size: 72px;
-     line-height: 76px;
-     margin-top: 112px;
+    font-size: 72px;
+    line-height: 76px;
+    margin-top: 112px;
   }
 }
 
 @media (min-width: 1024px) {
   .cover__title {
-     margin-top: 192px;
+    margin-top: 192px;
   }
 }
 
 @media (min-width: 1280px) {
   .cover__title {
-    margin-top: 231px;
+    margin-top: 244px;
   }
 }

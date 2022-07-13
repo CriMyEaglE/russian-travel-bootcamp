@@ -6,6 +6,7 @@
    margin-bottom: 32px;
    transition: opacity .3s linear;
    text-decoration: none;
+   letter-spacing: 0;
 }
 
 .footer__link:last-child {

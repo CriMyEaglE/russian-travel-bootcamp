@@ -1,23 +1,23 @@
 .cover {
    max-width: 1184px;
    margin: 0 auto;
-   padding-top: 14px;
+   padding-top: 61px;
 }
 
 @media (min-width: 768px) {
    .cover {
-      padding-top: 42px;
+      padding-top: 96px;
    }
 }
 
 @media (min-width: 1024px) {
    .cover {
-      padding-top: 12px;
+      padding-top: 93px;
    }
 }
 
 @media (min-width: 1280px) {
    .cover {
-      padding-top: 24px;
+      padding-top: 88px;
    }
 }

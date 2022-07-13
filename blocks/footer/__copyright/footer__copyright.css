@@ -4,19 +4,12 @@
    font-size: 14px;
    line-height: 14px;
    margin: 28px 0 0 17px;
+   letter-spacing: 0;
 }
 
 @media (min-width: 768px) {
    .footer__copyright {
       line-height: 16px;
-      margin-top: 20px;
-      margin-right: 31px;
-   }
-}
-
-@media (min-width: 1024px) {
-   .footer__copyright {
-      margin-right: 56px;
-      margin-top: 25px;
+      margin: auto 0;
    }
 }

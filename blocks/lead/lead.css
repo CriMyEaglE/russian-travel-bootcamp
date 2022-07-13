@@ -5,3 +5,15 @@
   box-sizing: content-box;
   padding-top: 48px;
 }
+
+@media (min-width: 1024px) {
+  .lead {
+    padding-top: 45px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .lead {
+    padding-top: 48px;
+  }
+}

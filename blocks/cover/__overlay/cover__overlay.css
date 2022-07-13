@@ -4,6 +4,7 @@
   background-size: cover;
   margin: auto;
   position: relative;
+  padding: 1px 0 10% 0;
 }
 
 .cover__overlay::after {
@@ -21,4 +22,23 @@
 
 .cover__overlay:hover::after {
   opacity: 0.8;
+}
+
+@media (min-width: 768px) {
+  .cover__overlay {
+    padding-bottom: 15%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cover__overlay {
+    padding-bottom: 19%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .cover__overlay {
+    max-width: 100%;
+    padding-bottom: 20.5%;
+  }
 }

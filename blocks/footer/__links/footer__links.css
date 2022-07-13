@@ -10,19 +10,6 @@
       display: flex;
       justify-content: space-between;
       flex-basis: 468px;
-   }
-}
-
-@media (min-width: 1024px) {
-   .footer__links {
-      margin-left: 48px;
-      margin-top: 6px;
-      flex-basis: 460px;
-   }
-}
-
-@media (min-width: 1280px) {
-   .footer__links {
-      flex-basis: 458px;
+      margin-left: 0;
    }
 }

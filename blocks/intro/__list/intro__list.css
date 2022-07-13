@@ -1,12 +1,14 @@
 .intro__list {
    max-width: 288px;
+   width: 100%;
    color: white;
    list-style-type: none;
    font-weight: 700;
    font-size: 12px;
    line-height: 18px;
    padding: 0;
-   margin: 60px 0 0;
+   margin: 32px 0 0;
+   letter-spacing: 0;
 }
 
 @media (min-width: 768px) {

@@ -1,5 +1,6 @@
 .footer {
    padding: 53px 0 26px 0;
+   margin: 0 auto;
 }
 
 @media (min-width: 768px) {
@@ -7,7 +8,20 @@
       display: flex;
       justify-content: space-between;
       min-width: 720px;
-      padding-top: 69px;
-      padding-bottom: 5px;
+      padding-top: 67px;
+      padding-bottom: 0;
+      width: 90.5%;
+   }
+}
+
+@media (min-width: 1024px) {
+   .footer {
+      padding-top: 71px;
+   }
+}
+
+@media (min-width: 1280px) {
+   .footer {
+      width: 92.5%;
    }
 }

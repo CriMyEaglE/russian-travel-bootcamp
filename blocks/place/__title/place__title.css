@@ -5,11 +5,12 @@
    font-size: 32px;
    line-height: 35px;
    margin: 0 0 0 15px;
+   letter-spacing: 0;
 }
 
 @media (min-width: 768px) {
    .place__title {
-      max-width: 340px;
+      max-width: 328px;
       font-size: 42px;
       line-height: 46px;
       margin-left: 0;
@@ -27,7 +28,5 @@
 @media (min-width: 1280px) {
    .place__title {
       max-width: 460px;
-      font-size: 72px;
-      line-height: 76px;
    }
 }

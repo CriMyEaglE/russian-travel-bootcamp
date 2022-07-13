@@ -13,9 +13,3 @@
       margin-top: 0;
    }
 }
-
-@media (min-width: 1280px) {
-   .place__website {
-      margin-left: 9px;
-   }
-}

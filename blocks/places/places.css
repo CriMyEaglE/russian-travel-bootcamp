@@ -4,6 +4,12 @@
 
 @media (min-width: 768px) {
    .places {
-      padding-top: 88px;
+      padding-top: 91px;
+   }
+}
+
+@media (min-width: 1024px) {
+   .places {
+      padding-top: 92px;
    }
 }

@@ -8,6 +8,7 @@
   position: relative;
   z-index: 1;
   margin: 16px auto 0;
+  letter-spacing: 0;
 }
 
 @media (min-width: 768px) {

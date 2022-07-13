@@ -1,5 +1,5 @@
 .place__paragraph {
-   max-width: 288px;
+   max-width: 285px;
    color: white;
    font-weight: 400;
    font-size: 16px;
@@ -13,7 +13,7 @@
 
 @media (min-width: 768px) {
    .place__paragraph {
-      max-width: 352px;
+      max-width: 355px;
    }
 }
 
@@ -21,12 +21,12 @@
    .place__paragraph {
       max-width: 456px;
       font-size: 18px;
+      line-height: 29.34px;
    }
 }
 
 @media (min-width: 1280px) {
    .place__paragraph {
       max-width: 484px;
-      margin-left: 9px;
    }
 }

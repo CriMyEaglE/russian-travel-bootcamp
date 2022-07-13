@@ -3,24 +3,27 @@
    flex-direction: column;
    align-items: flex-start;
    padding-top: 64px;
-   margin-left: 16px;
+   align-items: center;
 }
 
 @media (min-width: 768px) {
    .intro {
       margin-left: 22px;
       padding-top: 89px;
+      align-items: flex-start;
    }
 }
 
 @media (min-width: 1024px) {
    .intro {
       margin-left: 48px;
+      padding-top: 95px;
    }
 }
 
 @media (min-width: 1280px) {
    .intro {
-      margin-left: 146px;
+      margin-left: 148px;
+      padding-top: 92px;
    }
 }
