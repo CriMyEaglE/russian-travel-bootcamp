@@ -15,7 +15,7 @@
       grid-template-columns: repeat(2, auto);
       grid-template-rows: auto;
       gap: 29px;
-      margin-bottom: 72px;
+      margin-bottom: 73px;
    }
 }
 
@@ -32,6 +32,6 @@
       grid-template-columns: 460px 484px;
       column-gap: 40px;
       row-gap: 27px;
-      margin-bottom: 80px;
+      margin-bottom: 79px;
    }
 }
