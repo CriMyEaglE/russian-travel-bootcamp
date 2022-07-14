@@ -1,12 +1,11 @@
 .header__links {
   display: flex;
   padding: 0;
-  margin: 0;
-  margin: 17px 0 0;
+  margin: 17px 16px 0 0;
   list-style-type: none;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .header__links {
     margin-right: 0px;
   }

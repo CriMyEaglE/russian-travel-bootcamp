@@ -2,6 +2,8 @@
    display: flex;
    justify-content: space-between;
    padding-top: 15px;
+   max-width: 1184px;
+   margin: 0 auto;
 }
 
 @media (min-width: 768px) {
@@ -14,10 +16,9 @@
 
 @media (min-width: 1024px) {
    .header {
-      margin-top: -3px;
       padding-right: 48px;
       padding-left: 48px;
-      padding-top: 0;
+      padding-top: 28px;
    }
 }
 

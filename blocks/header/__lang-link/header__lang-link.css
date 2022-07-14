@@ -7,10 +7,6 @@
    text-decoration: none;
 }
 
-.header__lang-link:first-child {
-   margin-right: 18px;
-}
-
 .header__lang-link:hover {
    opacity: .8;
 }
@@ -19,10 +15,5 @@
    .header__lang-link {
       font-size: 24px;
       line-height: 28px;
-   }
-
-   .header__lang-link:first-child {
-      margin-right: 0;
-      margin-left: 18px;
    }
 }
