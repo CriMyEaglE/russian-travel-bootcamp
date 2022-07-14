@@ -1,0 +1,7 @@
+.header__link-gap {   
+   margin-right: 18px;
+}
+
+ .header__link-gap:last-child {
+   margin-right: 0;
+} 
